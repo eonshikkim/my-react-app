@@ -23,7 +23,8 @@ function randomAdjective() {
     }
     
     function firstName(){
-    
+        var name = window.prompt("Enter your first name: ");
+    return name;
     
     }
     function randomDigits(){
@@ -35,7 +36,7 @@ function randomAdjective() {
     
     console.log(randomDigits());
     console.log(randomAdjective());
-    
+    console.log(firstName());
     
     
     
